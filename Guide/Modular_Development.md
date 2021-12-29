@@ -3,7 +3,7 @@ Modular Development Guide
 
 ## Motivation
 
-This project is for developing a program which could inter-connect to different environments with a small impact.
+This is a research project that how to develop a program which could inter-connect to different environments with a small impact.
 
 When the inter-connect code is small enough, we could switch code only with flag and macro.  
 However, when the code is too big to switch by flag or macro, the code should be packaged as separated packages.
@@ -27,7 +27,8 @@ However, when the code is too big to switch by flag or macro, the code should be
 
 ### How to import these packages
 
-* Select plug-in of outer package by
+Select plug-in of outer package by
+
 ```toml
 [features]
 default = []
