@@ -1,0 +1,22 @@
+[package]
+name = "x_instance"
+version = "0.1.0"
+authors = ["YongJoon Joe"]
+license = "BSD3"
+readme = "README.md"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "x_instance"
+path = "src/lib.rs"
+edition = "2021"
+
+[dependencies]
+x_instance_plugin_a = { path = "../x_instance_plugin_a" }
+x_instance_plugin_b = { path = "../x_instance_plugin_b" }
+
+[features]
+plugin_a = []
+plugin_b = []
