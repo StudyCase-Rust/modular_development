@@ -1,5 +1,8 @@
-//use x_instance_plugin::plugin;
+//use self::wrap::x_instance_plugin::*;
+use self::simple::*;
 
 pub fn instance() {
-    x_plugin();
+    //x_plugin();
+    //fn_a();
+    simple();
 }
